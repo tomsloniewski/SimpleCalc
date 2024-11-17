@@ -15,7 +15,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 
-def message(op, arg1, arg2):
+def message(op: str, arg1: int, arg2: int):
     """Returns message to be printed on page
 
     Parameters:
